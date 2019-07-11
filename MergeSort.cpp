@@ -63,12 +63,9 @@ public:
 
 #define SIZE 10
 
-int main() {
-	
-	int a[] = { 9,5,3,4,2,1,5, 3, 44,1,2,3,5,6,7,11,2,3,4,5,6,7,223,33,999};
+int main() {	
+	int a[] = { 9,5,3,4,3,44,1,2,3,5,6,7,11,2,3,4,5,6,7,223,33,999};
 	int t[SIZE];
-
-
 
 	MergeSort<int>::print(a, SIZE);
 	cout << endl;
@@ -77,5 +74,6 @@ int main() {
 
 	MergeSort<int>::print(a, SIZE);
 	cout << endl;
+    
 	return 0;
 }
